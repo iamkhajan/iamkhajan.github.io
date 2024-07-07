@@ -4,48 +4,50 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  imagePath: string; // Updated to use imagePath
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to evaluate',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Digital Transformation',
+    imagePath: '/img/digital_transformation.png', // Updated to imagePath
     description: (
       <>
-        Dont know where to start ?
-        Do you have some idea and looking to bring it to live ?
-        We will help you to evaluate your idea and bring it to live
+        Leverage experience in transforming business processes, <br />
+        data-driven decision making, <br />
+        and creating innovative digital products.
       </>
     ),
   },
   {
-    title: 'Focus on business problem',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'AI/ML Development',
+    imagePath: '/img/aiml.png', // Updated to imagePath
     description: (
       <>
-        You can focus on your business problem, and let us take care of
-        your digital touch points
+        Machine learning models, natural language processing, <br/>
+        computer vision, and predictive analytics.
       </>
     ),
   },
   {
-    title: 'Powered by GPT',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Deploy Cloud Solutions',
+    imagePath: '/img/cicd.png', // Updated to imagePath
     description: (
       <>
-      Efficiency improvments with GPT , in development and after development
+      AWS , Azure hosted Solutions <br/>
+      CICD pipeline <br/>
+      Serverless Solutions <br/>
       </>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, imagePath, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img src={imagePath} className={styles.featureSvg} alt={title} /> {/* Updated to use img tag */}
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>

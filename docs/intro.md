@@ -2,29 +2,27 @@
 sidebar_position: 1
 ---
 
-# Who am i 
+# Your Digital Partner
 
-I am **Khajan** , currently in Guadalajara Mexico and originally from India.
+
+**Khajan Pandey** is a seasoned software architect with over a decade of experience in crafting innovative software solutions. With a deep passion for turning ideas into reality, I excel in guiding projects from the conceptualization stage through design, development, and deployment.
+
+Based in the vibrant city of Guadalajara, Mexico, I bring a global perspective to my work, combining my Indian heritage with the dynamic Mexican tech ecosystem. My focus lies in delivering exceptional software products that meet the unique needs of diverse industries
 
 ## Tech-Driven Innovator | AI/ML Expert | Mobile App Architect
 
 I'm a seasoned software architect with a passion for transforming businesses through technology. My expertise lies in crafting cutting-edge AI/ML solutions, designing intuitive mobile apps (Android/iOS), and leading digital transformation initiatives. With a strong foundation in both technical execution and strategic leadership, I help organizations build robust products and high-performing teams
 
-### Are you looking for
+![Connecting](../static/img/blog_images/rag_app.png "Let's Connect")
 
-- Building Scalable AI Solutions: A Software Architect's Perspective
-  - From Concept to App: A Mobile Architect's Journey
-  - Digital transformation : Strategies from Trenches
+## Building Intelligent, Data-Driven Applications
 
-## GPT RAG Expert: Building Intelligent, Data-Driven Applications
+I specialize in developing cutting-edge GPT-powered applications leveraging Multi Agents , Retrieval Augmented Generation (RAG) technics. With a deep understanding of AI, natural language processing, and information retrieval, I create innovative solutions that deliver exceptional user experiences. My expertise lies in designing and implementing robust RAG systems, fine-tuning GPT models, and integrating diverse data sources to enhance application performance. Let's build the future of AI together.
 
-I specialize in developing cutting-edge GPT-powered applications leveraging Retrieval Augmented Generation (RAG) technology. With a deep understanding of AI, natural language processing, and information retrieval, I create innovative solutions that deliver exceptional user experiences. My expertise lies in designing and implementing robust RAG systems, fine-tuning GPT models, and integrating diverse data sources to enhance application performance. Let's build the future of AI together.
-
-## Wants to connect ?
+## Want to connect ?
 
 Reach out 
 
 ```bash
 khajanpandey@hotmail.com
-iamkhajan
 ```

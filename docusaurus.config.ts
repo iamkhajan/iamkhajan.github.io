@@ -4,15 +4,16 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Khajan Pandey',
-  tagline: 'Personal blog and portfolio',
+  tagline: 'Digital Solutions Enabler',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://iamkhajan.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
+  
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'iamkhajan', // Usually your GitHub org/user name.
@@ -57,7 +58,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Khajan',
+      title: 'Home',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -67,7 +68,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Blogs',
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -75,6 +76,11 @@ const config: Config = {
           label: 'GitHub',
           position: 'right',
         },
+        {
+          to: '/docs/intro',
+          label: 'Contact Us',
+          position: 'right',
+        }
       ],
     },
     footer: {
@@ -84,7 +90,7 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Blogs',
               to: '/docs/intro',
             },
           ],
