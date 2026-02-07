@@ -11,32 +11,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'AI Architect & Innovator',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Designing intelligent solutions and leading AI strategy for product companies. Passionate about building scalable, impactful AI systems.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Global Experience',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Living and working internationally, I bring a global perspective to AI product development and cross-cultural collaboration.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Consultant Support',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Empowering consultants with expert guidance, mentorship, and hands-on support for successful AI project delivery.
       </>
     ),
   },
