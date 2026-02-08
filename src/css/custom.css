@@ -41,3 +41,15 @@
   transform: scale(1.05);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
 }
+
+/* Social Icon Styles */
+.hero a svg {
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  opacity: 0.8;
+}
+
+.hero a:hover svg {
+  transform: translateY(-3px);
+  opacity: 1;
+  color: var(--ifm-color-secondary); /* Or any color you prefer */
+}
