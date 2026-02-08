@@ -9,7 +9,7 @@ const SocialMediaRow: React.FC = () => (
     <a href="https://github.com/iamkhajan" target="_blank" style={{ color: 'white' }}>
       <FaGithub />
     </a>
-    <a href="mailto:khajanpandey@outlook.com" style={{ color: 'white' }}>
+    <a href="mailto:hola@khajanpandey.com" style={{ color: 'white' }}>
       <FaEnvelope />
     </a>
   </div>
