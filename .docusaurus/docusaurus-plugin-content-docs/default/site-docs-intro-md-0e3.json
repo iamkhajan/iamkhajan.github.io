@@ -14,9 +14,5 @@
   "frontMatter": {
     "sidebar_position": 1
   },
-  "sidebar": "tutorialSidebar",
-  "next": {
-    "title": "DevOps with AWS",
-    "permalink": "/docs/category/devops-with-aws"
-  }
+  "sidebar": "tutorialSidebar"
 }

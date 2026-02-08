@@ -14,26 +14,6 @@
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-page",
-              "path": "/docs/tutorial-basics/create-a-page",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-extras/manage-docs-versions",
-              "path": "/docs/tutorial-extras/manage-docs-versions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/devops-with-aws",
-              "path": "/docs/category/devops-with-aws",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/generative-ai-approach",
-              "path": "/docs/category/generative-ai-approach",
-              "sidebar": "tutorialSidebar"
             }
           ],
           "draftIds": [],
