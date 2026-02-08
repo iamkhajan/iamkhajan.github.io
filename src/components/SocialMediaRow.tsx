@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaEnvelope, FaYoutube } from 'react-icons/fa';
 
 const SocialMediaRow: React.FC = () => (
   <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', fontSize: '2rem', marginBottom: '1.5rem' }}>
@@ -8,6 +8,9 @@ const SocialMediaRow: React.FC = () => (
     </a>
     <a href="https://github.com/iamkhajan" target="_blank" style={{ color: 'white' }}>
       <FaGithub />
+    </a>
+    <a href="https://www.youtube.com/@Khajan.Pandey" target="_blank" style={{ color: 'white' }}>
+      <FaYoutube />
     </a>
     <a href="mailto:hola@khajanpandey.com" style={{ color: 'white' }}>
       <FaEnvelope />

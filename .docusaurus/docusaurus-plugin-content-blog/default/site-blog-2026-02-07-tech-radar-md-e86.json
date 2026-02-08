@@ -1,7 +1,7 @@
 {
   "permalink": "/blog/tech-radar-q1-2026",
   "source": "@site/blog/2026-02-07-tech-radar.md",
-  "title": "Architect’s Radar: What is coming next",
+  "title": "What is coming next",
   "description": "As a Solution Architect, my job is to filter noise. Here is my Q1 2026 Tech Radar—technologies I am actively implementing for revenue-critical systems.",
   "date": "2026-02-07T00:00:00.000Z",
   "tags": [
@@ -35,7 +35,7 @@
   ],
   "frontMatter": {
     "slug": "tech-radar-q1-2026",
-    "title": "Architect’s Radar: What is coming next",
+    "title": "What is coming next",
     "authors": {
       "name": "Khajan Pandey",
       "title": "AI Solutions Architect",
