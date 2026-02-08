@@ -2,46 +2,27 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Your Digital Partner
 
-Let's discover **Docusaurus in less than 5 minutes**.
 
-## Getting Started
+**Khajan Pandey** is a seasoned software architect with over a decade of experience in crafting innovative software solutions. With a deep passion for turning ideas into reality, I excel in guiding projects from the conceptualization stage through design, development, and deployment.
 
-Get started by **creating a new site**.
+Based in the vibrant city of Guadalajara, Mexico, I bring a global perspective to my work, combining my Indian heritage with the dynamic Mexican tech ecosystem. My focus lies in delivering exceptional software products that meet the unique needs of diverse industries
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Tech-Driven Innovator | AI/ML Expert | Mobile App Architect
 
-### What you'll need
+I'm a seasoned software architect with a passion for transforming businesses through technology. My expertise lies in crafting cutting-edge AI/ML solutions, designing intuitive mobile apps (Android/iOS), and leading digital transformation initiatives. With a strong foundation in both technical execution and strategic leadership, I help organizations build robust products and high-performing teams
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+![Connecting](../static/img/blog_images/rag_app.png "Let's Connect")
 
-## Generate a new site
+## Building Intelligent, Data-Driven Applications
 
-Generate a new Docusaurus site using the **classic template**.
+I specialize in developing cutting-edge GPT-powered applications leveraging Multi Agents , Retrieval Augmented Generation (RAG) technics. With a deep understanding of AI, natural language processing, and information retrieval, I create innovative solutions that deliver exceptional user experiences. My expertise lies in designing and implementing robust RAG systems, fine-tuning GPT models, and integrating diverse data sources to enhance application performance. Let's build the future of AI together.
 
-The classic template will automatically be added to your project after you run the command:
+## Want to connect ?
 
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
+Reach out 
 
 ```bash
-cd my-website
-npm run start
+khajanpandey@hotmail.com
 ```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
