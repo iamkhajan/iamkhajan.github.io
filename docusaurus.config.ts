@@ -112,21 +112,17 @@ const config: Config = {
             },
           ],
         },
-        // {
-        //   title: 'More',
-        //   items: [
-        //     {
-        //       label: 'Blog',
-        //       to: '/blog',
-        //     },
-        //     {
-        //       label: 'GitHub',
-        //       href: 'https://github.com/iamkhajan',
-        //     },
-        //   ],
-        // },
+        {
+          title: 'Contact',
+          items: [
+            {
+              label: 'Send email',
+              href: 'mailto:hola@khajanpandey.com',
+            }
+          ],
+        },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Khajan, Inc.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Khajanpandey, Inc.`,
     },
     prism: {
       theme: prismThemes.github,

@@ -10,7 +10,7 @@ export default {
     "currentFocus": "Currently exploring: Agentic Workflows & Multi-Modal RAG"
   },
   "favicon": "img/favicon.ico",
-  "url": "https://iamkhajan.github.io",
+  "url": "https://khajanpandey.com",
   "baseUrl": "/",
   "organizationName": "iamkhajan",
   "projectName": "iamkhajan.github.io",
@@ -83,9 +83,18 @@ export default {
               "href": "https://twitter.com/khajanpandey"
             }
           ]
+        },
+        {
+          "title": "Contact",
+          "items": [
+            {
+              "label": "Send email",
+              "href": "mailto:hola@khajanpandey.com"
+            }
+          ]
         }
       ],
-      "copyright": "Copyright © 2026 Khajan, Inc."
+      "copyright": "Copyright © 2026 Khajanpandey, Inc."
     },
     "prism": {
       "theme": {
