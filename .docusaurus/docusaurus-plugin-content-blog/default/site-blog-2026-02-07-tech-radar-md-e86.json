@@ -1,0 +1,51 @@
+{
+  "permalink": "/blog/tech-radar-q1-2026",
+  "source": "@site/blog/2026-02-07-tech-radar.md",
+  "title": "Architect’s Radar: What is coming next",
+  "description": "As a Solution Architect, my job is to filter noise. Here is my Q1 2026 Tech Radar—technologies I am actively implementing for revenue-critical systems.",
+  "date": "2026-02-07T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "architecture",
+      "permalink": "/blog/tags/architecture"
+    },
+    {
+      "inline": true,
+      "label": "AI",
+      "permalink": "/blog/tags/ai"
+    },
+    {
+      "inline": true,
+      "label": "strategy",
+      "permalink": "/blog/tags/strategy"
+    }
+  ],
+  "readingTime": 0.84,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Khajan Pandey",
+      "title": "AI Solutions Architect",
+      "url": "https://github.com/iamkhajan",
+      "socials": {},
+      "key": null,
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "tech-radar-q1-2026",
+    "title": "Architect’s Radar: What is coming next",
+    "authors": {
+      "name": "Khajan Pandey",
+      "title": "AI Solutions Architect",
+      "url": "https://github.com/iamkhajan"
+    },
+    "tags": [
+      "architecture",
+      "AI",
+      "strategy"
+    ]
+  },
+  "unlisted": false
+}

@@ -72,29 +72,28 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Blogs',
+          label: 'Docs',
         },
-        // {to: '/blog', label: 'Blog', position: 'left'},
-        // {
-        //   href: 'https://github.com/iamkhajan',
-        //   label: 'GitHub',
-        //   position: 'right',
-        // },
-        // {
-        //   to: '/docs/intro',
-        //   label: 'Contact Us',
-        //   position: 'right',
-        // }
+        {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          href: 'https://github.com/iamkhajan',
+          label: 'GitHub',
+          position: 'right',
+        },
+        {
+          to: '/docs/intro',
+          label: 'Contact Us',
+          position: 'right',
+        }
       ],
     },
     footer: {
-      style: 'dark',
       links: [
         {
           title: 'Docs',
           items: [
             {
-              label: 'Blogs',
+              label: 'Knowledge Base',
               to: '/docs/intro',
             },
           ],

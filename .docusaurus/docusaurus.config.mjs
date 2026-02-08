@@ -54,19 +54,33 @@ export default {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "Blogs"
+          "label": "Docs"
+        },
+        {
+          "to": "/blog",
+          "label": "Blog",
+          "position": "left"
+        },
+        {
+          "href": "https://github.com/iamkhajan",
+          "label": "GitHub",
+          "position": "right"
+        },
+        {
+          "to": "/docs/intro",
+          "label": "Contact Us",
+          "position": "right"
         }
       ],
       "hideOnScroll": false
     },
     "footer": {
-      "style": "dark",
       "links": [
         {
           "title": "Docs",
           "items": [
             {
-              "label": "Blogs",
+              "label": "Knowledge Base",
               "to": "/docs/intro"
             }
           ]
@@ -94,7 +108,8 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2026 Khajanpandey, Inc."
+      "copyright": "Copyright © 2026 Khajanpandey, Inc.",
+      "style": "light"
     },
     "prism": {
       "theme": {

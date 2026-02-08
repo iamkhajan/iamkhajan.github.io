@@ -1,4 +1,11 @@
 {
   "title": "Recent posts",
-  "items": []
+  "items": [
+    {
+      "title": "Architect’s Radar: What is coming next",
+      "permalink": "/blog/tech-radar-q1-2026",
+      "unlisted": false,
+      "date": "2026-02-07T00:00:00.000Z"
+    }
+  ]
 }

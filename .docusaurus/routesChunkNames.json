@@ -42,6 +42,84 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
+  "/blog-e29": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-9-dd-f26"
+      }
+    ],
+    "__props": "__props---blogc-15-573"
+  },
+  "/blog/archive-182": {
+    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "__props": "__props---blog-archivef-81-229"
+  },
+  "/blog/tags-287": {
+    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "__props": "__props---blog-tags-3-a-2-fa2"
+  },
+  "/blog/tags/ai-fac": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-9-dd-f26"
+      }
+    ],
+    "__props": "__props---blog-tags-ai-65-a-ec1"
+  },
+  "/blog/tags/architecture-070": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-9-dd-f26"
+      }
+    ],
+    "__props": "__props---blog-tags-architecture-852-acb"
+  },
+  "/blog/tags/strategy-f3f": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-9-dd-f26"
+      }
+    ],
+    "__props": "__props---blog-tags-strategyafd-3bc"
+  },
+  "/blog/tech-radar-q1-2026-c38": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-tech-radar-q-1-2026-ace-136"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-tech-radar-q-1-2026-e-86-dec"
+  },
   "/markdown-page-3d7": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {

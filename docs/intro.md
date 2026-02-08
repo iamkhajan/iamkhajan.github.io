@@ -17,7 +17,7 @@ My current focus lies at the intersection of:
 * **Multi-Modal RAG:** Architecting systems that "see" and "read" across diverse data formats.
 * **Scalable Transformation:** Leading legacy systems into the modern AI-first era.
 
-![Building the Future](../static/img/blog_images/rag_app.png "Architecting Intelligence")
+<!-- ![Building the Future](../static/img/blog_images/rag_app.png "Architecting Intelligence") -->
 
 ## Thought Leadership & Technical Edge
 
