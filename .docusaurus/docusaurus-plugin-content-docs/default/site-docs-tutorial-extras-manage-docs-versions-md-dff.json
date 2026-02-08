@@ -1,6 +1,6 @@
 {
   "id": "tutorial-extras/manage-docs-versions",
-  "title": "Manage Docs Versions",
+  "title": "Business problem",
   "description": "Docusaurus can manage multiple versions of your docs.",
   "source": "@site/docs/tutorial-extras/manage-docs-versions.md",
   "sourceDirName": "tutorial-extras",
@@ -8,7 +8,6 @@
   "permalink": "/docs/tutorial-extras/manage-docs-versions",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/manage-docs-versions.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -17,11 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Tutorial - Extras",
-    "permalink": "/docs/category/tutorial---extras"
-  },
-  "next": {
-    "title": "Translate your site",
-    "permalink": "/docs/tutorial-extras/translate-your-site"
+    "title": "Generative AI approach",
+    "permalink": "/docs/category/generative-ai-approach"
   }
 }
