@@ -1,7 +1,7 @@
 {
   "id": "intro",
-  "title": "Your Digital Partner",
-  "description": "Khajan Pandey is a seasoned software architect with over a decade of experience in crafting innovative software solutions. With a deep passion for turning ideas into reality, I excel in guiding projects from the conceptualization stage through design, development, and deployment.",
+  "title": "Your Digital Architect",
+  "description": "Khajan Pandey is a Solution Architect with over a decade of experience designing resilient, high-impact systems. I specialize in bridging the gap between complex business challenges and elegant technical execution.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
