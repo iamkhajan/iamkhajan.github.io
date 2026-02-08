@@ -60,7 +60,7 @@ const config: Config = {
     navbar: {
       title: 'Home',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Khajan Pandey Profile',
         src: 'img/logo.svg',
       },
       items: [

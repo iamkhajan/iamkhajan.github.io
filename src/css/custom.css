@@ -6,15 +6,17 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+/* A Professional Slate/Navy Theme */
+  --ifm-color-primary: #1b365d; 
+  --ifm-color-primary-dark: #183154;
+  --ifm-color-primary-darker: #172e4f;
+  --ifm-color-primary-darkest: #132641;
+  --ifm-color-primary-light: #1e3c66;
+  --ifm-color-primary-lighter: #20406d;
+  --ifm-color-primary-lightest: #264b80;
+  
+  /* Make fonts look cleaner */
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
