@@ -1,6 +1,6 @@
 ---
 slug: tech-radar-q1-2026
-title: "Architect’s Radar: What is coming next"
+title: "What is coming next"
 authors: 
     name: Khajan Pandey
     title: AI Solutions Architect
