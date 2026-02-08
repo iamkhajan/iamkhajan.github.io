@@ -4,7 +4,10 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Khajan Pandey',
-  tagline: 'Digital Solutions',
+  tagline: 'Context, Insights and Architecting Intelligence',
+  customFields: {
+    currentFocus: 'Currently exploring: Agentic Workflows & Multi-Modal RAG',
+  },
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -71,16 +74,16 @@ const config: Config = {
           label: 'Blogs',
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/iamkhajan',
-          label: 'GitHub',
-          position: 'right',
-        },
-        {
-          to: '/docs/intro',
-          label: 'Contact Us',
-          position: 'right',
-        }
+        // {
+        //   href: 'https://github.com/iamkhajan',
+        //   label: 'GitHub',
+        //   position: 'right',
+        // },
+        // {
+        //   to: '/docs/intro',
+        //   label: 'Contact Us',
+        //   position: 'right',
+        // }
       ],
     },
     footer: {

@@ -5,7 +5,10 @@
  */
 export default {
   "title": "Khajan Pandey",
-  "tagline": "Digital Solutions",
+  "tagline": "Context, Insights and Architecting Intelligence",
+  "customFields": {
+    "currentFocus": "Currently exploring: Agentic Workflows & Multi-Modal RAG"
+  },
   "favicon": "img/favicon.ico",
   "url": "https://iamkhajan.github.io",
   "baseUrl": "/",
@@ -43,7 +46,7 @@ export default {
     "navbar": {
       "title": "Home",
       "logo": {
-        "alt": "My Site Logo",
+        "alt": "Khajan Pandey Profile",
         "src": "img/logo.svg"
       },
       "items": [
@@ -52,16 +55,6 @@ export default {
           "sidebarId": "tutorialSidebar",
           "position": "left",
           "label": "Blogs"
-        },
-        {
-          "href": "https://github.com/iamkhajan",
-          "label": "GitHub",
-          "position": "right"
-        },
-        {
-          "to": "/docs/intro",
-          "label": "Contact Us",
-          "position": "right"
         }
       ],
       "hideOnScroll": false
@@ -348,7 +341,6 @@ export default {
   "staticDirectories": [
     "static"
   ],
-  "customFields": {},
   "plugins": [],
   "themes": [],
   "scripts": [],
