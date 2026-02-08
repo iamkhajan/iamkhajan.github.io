@@ -15,7 +15,7 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <img
-          src={useBaseUrl('/img/photo.jpg')}
+          src={useBaseUrl('/img/profile.jpg')}
           alt="Khajan Pandey"
           style={{
             width: '160px',
