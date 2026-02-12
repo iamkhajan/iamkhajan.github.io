@@ -17,6 +17,10 @@ Let's first look into the 4 pillars of the Radar:
 - **Trial**
 - **Adopt**
 
+<div align="left">
+    <img src={require("@site/static/img/blog_images/tech.jpeg").default} alt="Tech Radar" style={{maxWidth: '400px', borderRadius: '12px'}} />
+</div>
+
 For simplification i will refer Assess and Trial to Eval
 
 ### 🟢 Adopt: Multi-Agent Orchestration
