@@ -39,17 +39,12 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '4af'),
+    component: ComponentCreator('/blog', 'e29'),
     exact: true
   },
   {
     path: '/blog/archive',
     component: ComponentCreator('/blog/archive', '182'),
-    exact: true
-  },
-  {
-    path: '/blog/awesome-architect-q1-2026',
-    component: ComponentCreator('/blog/awesome-architect-q1-2026', '759'),
     exact: true
   },
   {
@@ -59,7 +54,7 @@ export default [
   },
   {
     path: '/blog/tags/ai',
-    component: ComponentCreator('/blog/tags/ai', 'eb1'),
+    component: ComponentCreator('/blog/tags/ai', 'fac'),
     exact: true
   },
   {
@@ -68,13 +63,8 @@ export default [
     exact: true
   },
   {
-    path: '/blog/tags/awesome-copilot',
-    component: ComponentCreator('/blog/tags/awesome-copilot', '2a0'),
-    exact: true
-  },
-  {
     path: '/blog/tags/strategy',
-    component: ComponentCreator('/blog/tags/strategy', 'c15'),
+    component: ComponentCreator('/blog/tags/strategy', 'f3f'),
     exact: true
   },
   {
