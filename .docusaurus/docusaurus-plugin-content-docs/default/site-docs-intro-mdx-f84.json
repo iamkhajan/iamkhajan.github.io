@@ -1,8 +1,8 @@
 {
   "id": "intro",
-  "title": "<TypingTitle/>",
+  "title": "intro",
   "description": "Khajan Pandey is a Solution Architect with over a decade of experience designing resilient, high-impact systems. I specialize in bridging the gap between complex business challenges and elegant technical execution.",
-  "source": "@site/docs/intro.md",
+  "source": "@site/docs/intro.mdx",
   "sourceDirName": ".",
   "slug": "/intro",
   "permalink": "/docs/intro",

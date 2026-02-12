@@ -2,6 +2,12 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "Awesome 10x Engineer",
+      "permalink": "/blog/awesome-architect-q1-2026",
+      "unlisted": false,
+      "date": "2026-02-11T00:00:00.000Z"
+    },
+    {
       "title": "What is coming next",
       "permalink": "/blog/tech-radar-q1-2026",
       "unlisted": false,

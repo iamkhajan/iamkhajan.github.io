@@ -42,13 +42,16 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/blog-e29": {
+  "/blog-4af": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogc-65-208"
+      },
       {
         "content": "content---blog-9-dd-f26"
       }
@@ -62,6 +65,17 @@
     },
     "__props": "__props---blog-archivef-81-229"
   },
+  "/blog/awesome-architect-q1-2026-759": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-awesome-architect-q-1-2026-ace-2e1"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-awesome-architect-q-1-2026-e-90-f52"
+  },
   "/blog/tags-287": {
     "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
     "__context": {
@@ -70,13 +84,16 @@
     "sidebar": "sidebar---blog-814-8ac",
     "__props": "__props---blog-tags-3-a-2-fa2"
   },
-  "/blog/tags/ai-fac": {
+  "/blog/tags/ai-eb1": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogc-65-208"
+      },
       {
         "content": "content---blog-9-dd-f26"
       }
@@ -96,13 +113,29 @@
     ],
     "__props": "__props---blog-tags-architecture-852-acb"
   },
-  "/blog/tags/strategy-f3f": {
+  "/blog/tags/awesome-copilot-2a0": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogc-65-208"
+      }
+    ],
+    "__props": "__props---blog-tags-awesome-copilot-1-ce-a6c"
+  },
+  "/blog/tags/strategy-c15": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogc-65-208"
+      },
       {
         "content": "content---blog-9-dd-f26"
       }
@@ -113,7 +146,7 @@
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-tech-radar-q-1-2026-ace-136"
+        "blogMetadata": "blogMetadata---blog-awesome-architect-q-1-2026-ace-2e1"
       },
       "plugin": "plugin---blog-369-22e"
     },
@@ -127,22 +160,22 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-393": {
+  "/docs-06b": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-97a": {
+  "/docs-231": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-7fc": {
+  "/docs-f3b": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
-  "/docs/intro-61d": {
+  "/docs/intro-89a": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-intro-0-e-3-be1"
+    "content": "content---docs-introf-84-2b4"
   },
   "/-e5f": {
     "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",

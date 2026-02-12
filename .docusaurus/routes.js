@@ -39,12 +39,17 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'e29'),
+    component: ComponentCreator('/blog', '4af'),
     exact: true
   },
   {
     path: '/blog/archive',
     component: ComponentCreator('/blog/archive', '182'),
+    exact: true
+  },
+  {
+    path: '/blog/awesome-architect-q1-2026',
+    component: ComponentCreator('/blog/awesome-architect-q1-2026', '759'),
     exact: true
   },
   {
@@ -54,7 +59,7 @@ export default [
   },
   {
     path: '/blog/tags/ai',
-    component: ComponentCreator('/blog/tags/ai', 'fac'),
+    component: ComponentCreator('/blog/tags/ai', 'eb1'),
     exact: true
   },
   {
@@ -63,8 +68,13 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/awesome-copilot',
+    component: ComponentCreator('/blog/tags/awesome-copilot', '2a0'),
+    exact: true
+  },
+  {
     path: '/blog/tags/strategy',
-    component: ComponentCreator('/blog/tags/strategy', 'f3f'),
+    component: ComponentCreator('/blog/tags/strategy', 'c15'),
     exact: true
   },
   {
@@ -79,19 +89,19 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '393'),
+    component: ComponentCreator('/docs', '06b'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '97a'),
+        component: ComponentCreator('/docs', '231'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '7fc'),
+            component: ComponentCreator('/docs', 'f3b'),
             routes: [
               {
                 path: '/docs/intro',
-                component: ComponentCreator('/docs/intro', '61d'),
+                component: ComponentCreator('/docs/intro', '89a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
