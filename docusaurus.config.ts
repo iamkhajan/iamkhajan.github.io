@@ -6,7 +6,7 @@ const config: Config = {
   title: 'Khajan Pandey',
   tagline: 'Context, Insights and Architecting Intelligence',
   customFields: {
-    currentFocus: 'Currently exploring: Agentic Workflows & Multi-Modal RAG',
+    currentFocus: 'Deep diving into the territory of AI',
   },
   favicon: 'img/favicon.ico',
 
