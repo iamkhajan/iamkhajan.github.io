@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Khajan Chandra Pandey',
+  title: 'Khajan Pandey',
   tagline: 'Context, Insights and Architecting Intelligence',
   customFields: {
     currentFocus: 'Deep diving into the territory of AI',
