@@ -65,13 +65,13 @@ function HomepageHeader() {
               image="/img/ai-card.png"
               alt="AI Perspectives"
               title="AI Perspectives"
-              description="Architecting scalable LLM solutions and enterprise AI roadmaps for global products."
+              description="Architecting scalable AI solutions"
             />
             <HighlightCard
               image="/img/mexico-card.png"
               alt="Global Context"
               title="Global Context"
-              description="10+ years experience in Mexico leading cross-functional teams."
+              description="Learning different cultures"
             />
             <HighlightCard
               image="/img/book-card.png"
