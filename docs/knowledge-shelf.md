@@ -4,39 +4,33 @@ sidebar_position: 4
 
 # Knowledge Shelf
 
-Books that have shaped how I think — about technology, leadership, and building things that last. Not a reading list, more of a curated shelf: things I'd actually recommend.
+Books that have shaped how I think — about technology,investments, leadership, and building things. Not a reading list, more of a curated shelf for my future self.
 
 ---
 
-## [Book Title]
+## 4 hour Work and Body
 
-*Author — Year*
-
-> *Replace this with 2–3 sentences on what the book is about and why it stuck with you. What idea from it do you find yourself referencing most?*
+> Define what is success to you ?
 
 ---
 
-## [Book Title]
+## The Cultural Map
 
-*Author — Year*
 
-> *Replace this with 2–3 sentences on what the book is about and why it stuck with you. What idea from it do you find yourself referencing most?*
-
----
-
-## [Book Title]
-
-*Author — Year*
-
-> *Replace this with 2–3 sentences on what the book is about and why it stuck with you. What idea from it do you find yourself referencing most?*
+> How to start/connect with different part of the world
 
 ---
 
-## [Book Title]
+## Sapiens
 
-*Author — Year*
 
-> *Replace this with 2–3 sentences on what the book is about and why it stuck with you. What idea from it do you find yourself referencing most?*
+> Our history
+
+---
+
+## Atomic habit
+
+> Want to start something ?
 
 ---
 
