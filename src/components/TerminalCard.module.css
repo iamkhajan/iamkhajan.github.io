@@ -1,0 +1,93 @@
+.terminal {
+  background: #060A14;
+  border: 1px solid rgba(201, 152, 58, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 480px;
+  margin: 2rem auto 0;
+  text-align: left;
+  font-family: 'Space Mono', 'Courier New', monospace;
+  font-size: 0.78rem;
+  line-height: 1;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+}
+
+/* ─── Title bar ──────────────────────────────────────────────────── */
+.bar {
+  background: #0D1424;
+  padding: 0.55rem 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.dot {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.red    { background: #FF5F57; }
+.yellow { background: #FEBC2E; }
+.green  { background: #28C840; }
+
+.barLabel {
+  margin-left: 10px;
+  font-size: 0.68rem;
+  color: rgba(255, 255, 255, 0.25);
+  font-family: 'DM Sans', sans-serif;
+  letter-spacing: 0.03em;
+}
+
+/* ─── Body ───────────────────────────────────────────────────────── */
+.body {
+  padding: 1.1rem 1.3rem 1.4rem;
+  min-height: 196px;
+}
+
+.line {
+  margin: 0;
+  padding: 0.18rem 0;
+  white-space: pre;
+  overflow: hidden;
+}
+
+.blank {
+  height: 0.65rem;
+}
+
+/* Line type colours */
+.prompt {
+  color: #C9983A;
+  user-select: none;
+}
+.cmd     { color: #F0EBE0; }
+.ok      { color: #4ADE80; padding-left: 1ch; }
+.info    { color: #7EB8F7; padding-left: 1ch; }
+.success { color: #C9983A; }
+
+/* ─── Blinking cursor ────────────────────────────────────────────── */
+.cursor {
+  display: inline-block;
+  width: 7px;
+  height: 1em;
+  margin-left: 1px;
+  background: #C9983A;
+  vertical-align: text-bottom;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cursor { animation: none; opacity: 1; }
+}
+
+@media (max-width: 600px) {
+  .terminal { font-size: 0.7rem; }
+  .body     { padding: 0.9rem 1rem 1.1rem; }
+}

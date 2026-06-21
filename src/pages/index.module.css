@@ -13,6 +13,27 @@
   justify-content: center;
 }
 
+/* Profile photo wrapper — hosts the online-status indicator */
+.profileWrapper {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+/* Green "online" dot — bottom-right of profile photo */
+.profileWrapper::after {
+  content: '';
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 15px;
+  height: 15px;
+  background: #28C840;
+  border-radius: 50%;
+  border: 3px solid #0A0F1E;
+  box-shadow: 0 0 10px rgba(40, 200, 64, 0.55);
+}
+
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 3rem 1rem 2rem;

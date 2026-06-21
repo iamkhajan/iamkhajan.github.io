@@ -7,7 +7,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import HighlightCard from '@site/src/components/HighlightCard';
 import Heading from '@theme/Heading';
 import SocialMediaRow from '@site/src/components/SocialMediaRow';
-
+import TerminalCard from '@site/src/components/TerminalCard';
 
 import styles from './index.module.css';
 import useBaseUrl from '@docusaurus/useBaseUrl';
@@ -18,18 +18,20 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <img
-          src={useBaseUrl('/img/profile.jpg')}
-          alt="Khajan Pandey"
-          style={{
-            width: '220px',
-            height: '220px',
-            borderRadius: '50%',
-            border: '3px solid transparent',
-            marginBottom: '1.5rem',
-            objectFit: 'cover',
-          }}
-        />
+        <div className={styles.profileWrapper}>
+          <img
+            src={useBaseUrl('/img/profile.jpg')}
+            alt="Khajan Pandey"
+            style={{
+              width: '220px',
+              height: '220px',
+              borderRadius: '50%',
+              border: '3px solid transparent',
+              objectFit: 'cover',
+              display: 'block',
+            }}
+          />
+        </div>
 
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
@@ -40,15 +42,8 @@ function HomepageHeader() {
         <SocialMediaRow />
 
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        
-        
-        {/* <div className={styles.buttons} style={{marginBottom: '2rem'}}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Know more - 5min ⏱️
-          </Link>
-        </div> */}
+
+        <TerminalCard />
 
         {/* --- THREE HIGHLIGHT CARDS --- */}
         <div className="container" style={{marginTop: '3rem'}}>
