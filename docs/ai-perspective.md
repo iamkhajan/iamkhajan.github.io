@@ -28,9 +28,3 @@ The core pattern: **LLM as a reasoning engine + tools + memory + orchestration**
 - **RAG pipelines** over proprietary knowledge bases, with custom chunking and hybrid search (dense + sparse retrieval)
 - **Agentic workflows** that autonomously gather data, generate reports, and surface anomalies for domain experts
 - **AI evaluation frameworks** to track answer quality, latency, and cost across model versions
-
-## My Take
-
-The hype cycle is real, but so is the underlying capability shift. Teams that treat AI as a feature bolt-on will see modest gains. Teams that rethink their workflows around AI-native patterns will compound those gains over time. The bottleneck is rarely the model — it's the system design around it.
-
-I'm happy to geek out on any of this. Reach out at `khajanpandey@hotmail.com`.
