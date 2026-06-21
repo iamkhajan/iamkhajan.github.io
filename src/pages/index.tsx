@@ -22,26 +22,18 @@ function HomepageHeader() {
           src={useBaseUrl('/img/profile.jpg')}
           alt="Khajan Pandey"
           style={{
-            width: '260px',
-            height: '260px',
+            width: '220px',
+            height: '220px',
             borderRadius: '50%',
-            border: '4px solid white',
-            marginBottom: '1rem',
+            border: '3px solid transparent',
+            marginBottom: '1.5rem',
             objectFit: 'cover',
           }}
         />
-        
+
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
-          <p style={{
-          fontStyle: 'italic',
-          opacity: 0.7,
-          fontSize: '1rem',
-          marginBottom: '2rem',
-          fontWeight: '300'
-        }}>
-          {currentFocus}
-        </p>
+          <p>{currentFocus}</p>
         </Heading>
         
         {/* SOCIAL MEDIA ROW */}

@@ -1,55 +1,183 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+/* Google Fonts: Cormorant Garamond (display) + DM Sans (body) + Space Mono (accent/code) */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&family=Space+Mono:wght@400;700&display=swap');
 
-/* You can override the default Infima variables here. */
+/* ─── Design Tokens ───────────────────────────────────────────────────── */
 :root {
-/* A Professional Slate/Navy Theme */
-  --ifm-color-primary: #1b365d; 
-  --ifm-color-primary-dark: #183154;
-  --ifm-color-primary-darker: #172e4f;
-  --ifm-color-primary-darkest: #132641;
-  --ifm-color-primary-light: #1e3c66;
-  --ifm-color-primary-lighter: #20406d;
-  --ifm-color-primary-lightest: #264b80;
-  
-  /* Make fonts look cleaner */
-  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+  /* Meridian palette */
+  --kp-ink:          #0A0F1E;
+  --kp-card:         #0F1728;
+  --kp-gold:         #C9983A;
+  --kp-gold-border:  rgba(201, 152, 58, 0.22);
+  --kp-gold-hover:   rgba(201, 152, 58, 0.55);
+  --kp-gold-glow:    rgba(201, 152, 58, 0.10);
+  --kp-cream:        #F0EBE0;
+  --kp-mist:         #9A9FB0;
+  --kp-divide:       rgba(201, 152, 58, 0.14);
+
+  /* Infima primary → saffron gold (drives links, active states, buttons) */
+  --ifm-color-primary:         #C9983A;
+  --ifm-color-primary-dark:    #B58432;
+  --ifm-color-primary-darker:  #A8792D;
+  --ifm-color-primary-darkest: #8C6325;
+  --ifm-color-primary-light:   #D4A644;
+  --ifm-color-primary-lighter: #DCBA58;
+  --ifm-color-primary-lightest:#E8C464;
+
+  --ifm-font-family-base: 'DM Sans', system-ui, -apple-system, sans-serif;
+  --ifm-code-font-size: 94%;
+  --docusaurus-highlighted-code-line-bg: rgba(201, 152, 58, 0.14);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary:         #D4A847;
+  --ifm-color-primary-dark:    #C09438;
+  --ifm-color-primary-darker:  #B38830;
+  --ifm-color-primary-darkest: #9A7128;
+  --ifm-color-primary-light:   #DEAD5A;
+  --ifm-color-primary-lighter: #E4B768;
+  --ifm-color-primary-lightest:#ECCB7C;
+  --docusaurus-highlighted-code-line-bg: rgba(212, 168, 71, 0.14);
 }
 
-/* Target the hero image specifically */
+/* ─── Reset / Global ──────────────────────────────────────────────────── */
+body {
+  font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ─── Navbar ──────────────────────────────────────────────────────────── */
+.navbar {
+  background: var(--kp-ink);
+  border-bottom: 1px solid var(--kp-divide);
+  box-shadow: none;
+}
+
+.navbar__brand,
+.navbar__title {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 0.04em;
+  color: var(--kp-cream) !important;
+}
+
+.navbar__link {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--kp-mist);
+  transition: color 0.2s ease;
+}
+
+.navbar__link:hover,
+.navbar__link--active {
+  color: var(--kp-gold);
+}
+
+/* ─── Hero ────────────────────────────────────────────────────────────── */
+.hero--primary {
+  background: var(--kp-ink);
+  color: var(--kp-cream);
+}
+
+/* The name — editorial display serif, the signature typographic moment */
+.hero__title {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 600;
+  font-size: clamp(2.8rem, 7vw, 5.2rem);
+  letter-spacing: 0.02em;
+  line-height: 1.05;
+  color: var(--kp-cream);
+  margin-bottom: 0.4rem;
+}
+
+/* The italic "current focus" line nested inside the h1 */
+.hero__title p {
+  font-family: 'Space Mono', monospace;
+  font-size: clamp(0.7rem, 1.6vw, 0.85rem);
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  color: var(--kp-gold);
+  font-style: normal;
+  opacity: 0.85;
+  margin: 0.6rem 0 0;
+}
+
+.hero__subtitle {
+  font-family: 'DM Sans', sans-serif;
+  font-size: clamp(0.9rem, 2vw, 1rem);
+  font-weight: 400;
+  color: var(--kp-mist);
+  max-width: 480px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* Profile image: gold ring instead of white border */
 .hero img {
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 0 3px var(--kp-ink), 0 0 0 5px rgba(201, 152, 58, 0.45);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .hero img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 0 3px var(--kp-ink), 0 0 0 6px rgba(201, 152, 58, 0.75);
+  transform: scale(1.02);
 }
 
-/* Social Icon Styles */
+/* Social icons: rest at mist, lift to gold */
 .hero a svg {
-  transition: transform 0.2s ease, opacity 0.2s ease;
-  opacity: 0.8;
+  transition: color 0.2s ease, transform 0.2s ease;
+  color: var(--kp-mist);
+  opacity: 1;
 }
 
 .hero a:hover svg {
-  transform: translateY(-3px);
-  opacity: 1;
-  color: var(--ifm-color-secondary); /* Or any color you prefer */
+  color: var(--kp-gold) !important;
+  transform: translateY(-2px);
+}
+
+/* ─── Footer ──────────────────────────────────────────────────────────── */
+.footer {
+  background: var(--kp-ink);
+  border-top: 1px solid var(--kp-divide);
+}
+
+.footer__title {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--kp-cream);
+}
+
+.footer__link-item {
+  color: var(--kp-mist);
+  font-size: 0.875rem;
+}
+
+.footer__link-item:hover {
+  color: var(--kp-gold);
+}
+
+/* ─── Doc sidebar ─────────────────────────────────────────────────────── */
+.menu__link--active:not(.menu__link--sublist) {
+  color: var(--kp-gold);
+  border-left: 2px solid var(--kp-gold);
+  padding-left: calc(var(--ifm-menu-link-padding-horizontal) - 2px);
+}
+
+/* ─── Code blocks ─────────────────────────────────────────────────────── */
+code {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.875em;
+}
+
+/* ─── Reduced motion ──────────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .hero img,
+  .hero a svg {
+    transition: none;
+  }
 }
