@@ -3,43 +3,8 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '5ff'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
-    exact: true
-  },
-  {
     path: '/blog',
-    component: ComponentCreator('/blog', 'e29'),
+    component: ComponentCreator('/blog', '027'),
     exact: true
   },
   {
@@ -54,12 +19,17 @@ export default [
   },
   {
     path: '/blog/tags/ai',
-    component: ComponentCreator('/blog/tags/ai', 'fac'),
+    component: ComponentCreator('/blog/tags/ai', 'b13'),
     exact: true
   },
   {
     path: '/blog/tags/architecture',
     component: ComponentCreator('/blog/tags/architecture', '070'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/engineering',
+    component: ComponentCreator('/blog/tags/engineering', 'ea5'),
     exact: true
   },
   {
@@ -73,25 +43,48 @@ export default [
     exact: true
   },
   {
+    path: '/blog/what-is-a-100x-ai-engineer',
+    component: ComponentCreator('/blog/what-is-a-100x-ai-engineer', '334'),
+    exact: true
+  },
+  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page', '3d7'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '06b'),
+    component: ComponentCreator('/docs', 'd18'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '231'),
+        component: ComponentCreator('/docs', '1af'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'f3b'),
+            component: ComponentCreator('/docs', '2ba'),
             routes: [
+              {
+                path: '/docs/ai-perspective',
+                component: ComponentCreator('/docs/ai-perspective', '739'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/global-context',
+                component: ComponentCreator('/docs/global-context', '6b6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
               {
                 path: '/docs/intro',
                 component: ComponentCreator('/docs/intro', '89a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/knowledge-shelf',
+                component: ComponentCreator('/docs/knowledge-shelf', '999'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

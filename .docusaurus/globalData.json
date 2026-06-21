@@ -11,8 +11,23 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "ai-perspective",
+              "path": "/docs/ai-perspective",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "global-context",
+              "path": "/docs/global-context",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "knowledge-shelf",
+              "path": "/docs/knowledge-shelf",
               "sidebar": "tutorialSidebar"
             }
           ],

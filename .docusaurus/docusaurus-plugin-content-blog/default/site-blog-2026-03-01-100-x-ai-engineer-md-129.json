@@ -1,0 +1,49 @@
+{
+  "permalink": "/blog/what-is-a-100x-ai-engineer",
+  "source": "@site/blog/2026-03-01-100x-ai-engineer.md",
+  "title": "What is a 100x AI Engineer",
+  "description": "A 100x AI Engineer is someone who can:",
+  "date": "2026-03-01T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "AI",
+      "permalink": "/blog/tags/ai"
+    },
+    {
+      "inline": true,
+      "label": "engineering",
+      "permalink": "/blog/tags/engineering"
+    }
+  ],
+  "readingTime": 0.56,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Khajan Pandey",
+      "title": "AI Solutions Architect",
+      "url": "https://github.com/iamkhajan",
+      "socials": {},
+      "key": null,
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "what-is-a-100x-ai-engineer",
+    "title": "What is a 100x AI Engineer",
+    "authors": {
+      "name": "Khajan Pandey",
+      "title": "AI Solutions Architect",
+      "url": "https://github.com/iamkhajan"
+    },
+    "tags": [
+      "AI",
+      "engineering"
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "What is coming next",
+    "permalink": "/blog/tech-radar-q1-2026"
+  }
+}

@@ -23,8 +23,9 @@
 }
 
 .featureCard {
+  cursor: pointer;
   /* Semi-transparent background */
-  background: rgba(255, 255, 255, 0.08); 
+  background: rgba(255, 255, 255, 0.08);
   /* The "Glass" effect - blurs whatever is behind the card */
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);

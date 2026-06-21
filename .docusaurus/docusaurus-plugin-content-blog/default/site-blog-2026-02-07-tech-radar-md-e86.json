@@ -47,5 +47,9 @@
       "strategy"
     ]
   },
-  "unlisted": false
+  "unlisted": false,
+  "prevItem": {
+    "title": "What is a 100x AI Engineer",
+    "permalink": "/blog/what-is-a-100x-ai-engineer"
+  }
 }

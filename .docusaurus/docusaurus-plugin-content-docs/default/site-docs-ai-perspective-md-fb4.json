@@ -1,0 +1,26 @@
+{
+  "id": "ai-perspective",
+  "title": "AI Perspective",
+  "description": "My perspective on where AI is headed — shaped by building production systems, not just reading about them.",
+  "source": "@site/docs/ai-perspective.md",
+  "sourceDirName": ".",
+  "slug": "/ai-perspective",
+  "permalink": "/docs/ai-perspective",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "intro",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Global Context",
+    "permalink": "/docs/global-context"
+  }
+}

@@ -66,18 +66,21 @@ function HomepageHeader() {
               alt="AI Perspectives"
               title="AI Perspectives"
               description="Architecting scalable AI solutions"
+              link="/docs/ai-perspective"
             />
             <HighlightCard
               image="/img/mexico-card.png"
               alt="Global Context"
               title="Global Context"
               description="Learning different cultures"
+              link="/docs/global-context"
             />
             <HighlightCard
               image="/img/book-card.png"
               alt="Personal Knowledge Shelf"
               title="Knowledge Shelf"
               description="Sharing insights, lessons, and resources from books, ideas, and experiences."
+              link="/docs/knowledge-shelf"
             />
           </div>
         </div>

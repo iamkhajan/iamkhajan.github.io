@@ -1,0 +1,22 @@
+{
+  "id": "knowledge-shelf",
+  "title": "Knowledge Shelf",
+  "description": "Books that have shaped how I think — about technology, leadership, and building things that last. Not a reading list, more of a curated shelf: things I'd actually recommend.",
+  "source": "@site/docs/knowledge-shelf.md",
+  "sourceDirName": ".",
+  "slug": "/knowledge-shelf",
+  "permalink": "/docs/knowledge-shelf",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Global Context",
+    "permalink": "/docs/global-context"
+  }
+}

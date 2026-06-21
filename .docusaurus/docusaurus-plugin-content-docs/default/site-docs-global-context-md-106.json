@@ -1,0 +1,26 @@
+{
+  "id": "global-context",
+  "title": "Global Context",
+  "description": "Ten-plus years outside the comfort zone — living and working across cultures has shaped how I lead, communicate, and build.",
+  "source": "@site/docs/global-context.md",
+  "sourceDirName": ".",
+  "slug": "/global-context",
+  "permalink": "/docs/global-context",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AI Perspective",
+    "permalink": "/docs/ai-perspective"
+  },
+  "next": {
+    "title": "Knowledge Shelf",
+    "permalink": "/docs/knowledge-shelf"
+  }
+}
