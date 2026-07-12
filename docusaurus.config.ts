@@ -6,7 +6,7 @@ const config: Config = {
   title: 'Khajan Pandey',
   tagline: 'Context, Insights and Architecting Intelligence',
   customFields: {
-    currentFocus: 'Deep diving into the territory of AI',
+    currentFocus: 'Solutions Architect',
   },
   favicon: 'img/favicon.ico',
 
@@ -76,13 +76,18 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
+          href: 'https://buenaonda.khajanpandey.com/',
+          label: 'Buena Onda 🇪🇸',
+          position: 'right',
+        },
+        {
           href: 'https://github.com/iamkhajan',
           label: 'GitHub',
           position: 'right',
         },
         {
-          to: '/docs/intro',
-          label: 'Contact Us',
+          href: 'mailto:hola@khajanpandey.com',
+          label: 'Contact',
           position: 'right',
         }
       ],
@@ -108,6 +113,15 @@ const config: Config = {
             {
               label: 'Twitter',
               href: 'https://twitter.com/khajanpandey',
+            },
+          ],
+        },
+        {
+          title: 'En Español',
+          items: [
+            {
+              label: 'Buena Onda',
+              href: 'https://buenaonda.khajanpandey.com/',
             },
           ],
         },

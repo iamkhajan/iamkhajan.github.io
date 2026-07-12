@@ -7,7 +7,7 @@ export default {
   "title": "Khajan Pandey",
   "tagline": "Context, Insights and Architecting Intelligence",
   "customFields": {
-    "currentFocus": "Deep diving into the territory of AI"
+    "currentFocus": "Solutions Architect"
   },
   "favicon": "img/favicon.ico",
   "url": "https://khajanpandey.com",
@@ -62,13 +62,18 @@ export default {
           "position": "left"
         },
         {
+          "href": "https://buenaonda.khajanpandey.com/",
+          "label": "Buena Onda 🇪🇸",
+          "position": "right"
+        },
+        {
           "href": "https://github.com/iamkhajan",
           "label": "GitHub",
           "position": "right"
         },
         {
-          "to": "/docs/intro",
-          "label": "Contact Us",
+          "href": "mailto:hola@khajanpandey.com",
+          "label": "Contact",
           "position": "right"
         }
       ],
@@ -95,6 +100,15 @@ export default {
             {
               "label": "Twitter",
               "href": "https://twitter.com/khajanpandey"
+            }
+          ]
+        },
+        {
+          "title": "En Español",
+          "items": [
+            {
+              "label": "Buena Onda",
+              "href": "https://buenaonda.khajanpandey.com/"
             }
           ]
         },

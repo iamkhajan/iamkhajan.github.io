@@ -43,10 +43,21 @@ function HomepageHeader() {
 
         <p className="hero__subtitle">{siteConfig.tagline}</p>
 
+        {/* CTA ROW — the two actions a visitor most likely wants */}
+        <div className={styles.ctaRow}>
+          <Link className={styles.ctaPrimary} to="/docs/intro">
+            Read my writing
+          </Link>
+          <a className={styles.ctaSecondary} href="mailto:hola@khajanpandey.com">
+            Get in touch
+          </a>
+        </div>
+
         <TerminalCard />
 
         {/* --- THREE HIGHLIGHT CARDS --- */}
-        <div className="container" style={{marginTop: '3rem'}}>
+        <div className="container" style={{marginTop: '3.5rem'}}>
+          <p className={styles.sectionLabel}>Explore</p>
           <div className="row">
             <HighlightCard
               image="/img/ai-card.png"

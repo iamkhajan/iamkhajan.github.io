@@ -47,6 +47,70 @@
   justify-content: center;
 }
 
+/* ─── CTA Row ─────────────────────────────────────────────────────────── */
+.ctaRow {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1.75rem 0 2.5rem;
+  flex-wrap: wrap;
+}
+
+.ctaPrimary,
+.ctaSecondary {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  padding: 0.7rem 1.8rem;
+  border-radius: 6px;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ctaPrimary {
+  background: var(--kp-gold, #C9983A);
+  color: var(--kp-ink, #0A0F1E);
+  border: 1px solid var(--kp-gold, #C9983A);
+}
+
+.ctaPrimary:hover {
+  background: #DCBA58;
+  border-color: #DCBA58;
+  color: var(--kp-ink, #0A0F1E);
+  text-decoration: none;
+  box-shadow: 0 0 24px rgba(201, 152, 58, 0.25);
+}
+
+.ctaSecondary {
+  background: transparent;
+  color: var(--kp-cream, #F0EBE0);
+  border: 1px solid var(--kp-gold-border, rgba(201, 152, 58, 0.35));
+}
+
+.ctaSecondary:hover {
+  border-color: var(--kp-gold-hover, rgba(201, 152, 58, 0.7));
+  color: var(--kp-gold, #C9983A);
+  text-decoration: none;
+}
+
+/* ─── Section label above the highlight cards ─────────────────────────── */
+.sectionLabel {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--kp-gold, #C9983A);
+  opacity: 0.75;
+  margin-bottom: 1.5rem;
+}
+
+.sectionLabel::before,
+.sectionLabel::after {
+  content: '—';
+  margin: 0 0.75rem;
+  opacity: 0.5;
+}
+
 /* ─── Highlight Cards ─────────────────────────────────────────────────── */
 .featureCard {
   cursor: pointer;
