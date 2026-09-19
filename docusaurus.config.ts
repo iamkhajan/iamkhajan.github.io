@@ -77,7 +77,7 @@ const config: Config = {
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://buenaonda.khajanpandey.com/',
-          label: 'Buena Onda 🇪🇸',
+          label: 'Buena Onda',
           position: 'right',
         },
         {

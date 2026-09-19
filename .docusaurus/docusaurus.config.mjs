@@ -63,7 +63,7 @@ export default {
         },
         {
           "href": "https://buenaonda.khajanpandey.com/",
-          "label": "Buena Onda 🇪🇸",
+          "label": "Buena Onda",
           "position": "right"
         },
         {
